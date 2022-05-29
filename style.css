@@ -1,0 +1,104 @@
+body {
+    margin: auto
+    
+}
+h1{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+main{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+main .triangulo:hover{
+    display:flex;
+     position: relative;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -10%);
+}
+main .cuadrado:hover{
+    display:flex;
+     position: relative;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -10%);
+}
+main .circulo:hover{
+    display:flex;
+     position: relative;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -10%);
+}
+.triangulo{
+    margin: 1%;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid yellow;
+
+}
+.triangulo:hover{
+    margin: 1%;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(14, 212, 31);
+}
+.cuadrado{
+    margin: 1%;
+    width: 0;
+    width: 100px; 
+    height: 100px; 
+    background: red;
+    
+}
+.cuadrado:hover{
+    margin: 1%;
+    width: 0;
+    width: 100px; 
+    height: 100px; 
+    background: rgb(228, 12, 192);
+}
+.circulo{
+    margin: 1%;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: blue;
+}
+.circulo:hover{
+    margin: 1%;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: rgb(3, 3, 3);
+
+}
+.button {
+    position: absolute;
+    width:100px;
+	height:15px;
+    top:60%;
+    margin-left:47.5%;
+   
+}
+.reset {
+    background-color: rgb(58, 56, 56);
+    border: solid 2px;
+    width: 90px;
+    height: 30px;
+}
